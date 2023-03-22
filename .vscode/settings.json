@@ -1,0 +1,17 @@
+{
+    "jenkins-runner.jobs": {
+        "python-flask-sample-sever-cicd-job": {
+            "isDefault": true,
+            "runWith": "jenkins-master",
+            "name": "python-flask-sample-sever-cicd-job",
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+        "jenkins-master": {
+            "url": "http://localhost:8080",
+            "user": "root",
+            "password": "f3697058dff94e35a126cf85a0978302",
+            "useCrumbIssuer": true,
+        }
+    }
+}
